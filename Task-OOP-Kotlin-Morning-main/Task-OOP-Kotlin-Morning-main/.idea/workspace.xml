@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="563a1639-7b7a-475f-820e-91c7bcfd92f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/src/androidTest/java/com/example/bp3_modul3_ui/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/src/main/java/com/example/bp3_modul3_ui/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/src/main/java/com/example/bp3_modul3_ui/ui/theme/Color.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/src/main/java/com/example/bp3_modul3_ui/ui/theme/Theme.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/src/main/java/com/example/bp3_modul3_ui/ui/theme/Type.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/src/main/res/xml/backup_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/src/main/res/xml/data_extraction_rules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/app/src/test/java/com/example/bp3_modul3_ui/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BP3_Modul3_UI/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bp3_m3/app/src/main/java/com/example/bp3_m3/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../bp3_m3/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/androidTest/java/com/example/macro/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/java/com/example/macro/ArticleActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/java/com/example/macro/ChangePasswordActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/java/com/example/macro/CustomerServiceActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/java/com/example/macro/DashboardActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/java/com/example/macro/EditProfileActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/java/com/example/macro/FaqActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/java/com/example/macro/IsiArticle1Activity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/java/com/example/macro/LoginActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/java/com/example/macro/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/java/com/example/macro/PickUpActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/java/com/example/macro/ProfileActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/java/com/example/macro/RegisterActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/java/com/example/macro/TrackingActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/artikel1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/artikel2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/artikel3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/background_awal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/background_button.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/background_edittext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/background_kembali.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/background_navbar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/background_point.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/background_putih.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/background_search.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/background_transparan.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/backgroundmacro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/bank.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/baseline_arrow_back_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/bckgroundlight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/btn_next_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/checked_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/grafik.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/ic_arrowkanan.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/ic_article.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/ic_barmid.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/ic_edit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/ic_email.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/ic_home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/ic_lock.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/ic_notif.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/ic_person.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/ic_search.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/ic_tracking.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/ic_truck.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/imageupload.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/karakter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/pulsa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/regis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/splash_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/top_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/track.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/unchecked_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/drawable/wallet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/layout/activity_article.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/layout/activity_change_password.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/layout/activity_customer_service.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/layout/activity_dashboard.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/layout/activity_edit_profile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/layout/activity_faq.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/layout/activity_isi_article1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/layout/activity_login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/layout/activity_pick_up.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/layout/activity_profile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/layout/activity_register.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/layout/activity_tracking.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/app/src/test/java/com/example/macro/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro/Macro5/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1).zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/.idea/dbnavigator.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/.idea/kotlinc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/androidTest/java/com/example/macro/ExampleInstrumentedTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/java/com/example/macro/ArticleActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/java/com/example/macro/DashboardActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/java/com/example/macro/IsiArticle1Activity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/java/com/example/macro/LoginActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/java/com/example/macro/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/java/com/example/macro/ProfileActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/java/com/example/macro/RegisterActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/artikel1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/artikel2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/artikel3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/background_awal.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/background_button.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/background_edittext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/background_kembali.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/background_navbar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/background_point.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/background_search.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/background_transparan.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/backgroundmacro.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/bckgroundlight.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/btn_next_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/ic_arrowkanan.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/ic_barmid.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/ic_email.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/ic_home.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/ic_lock.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/ic_notif.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/ic_person.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/ic_search.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/ic_tracking.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/ic_truck.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/karakter.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/login.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/regis.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/splash_screen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/drawable/top_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/layout/activity_article.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/layout/activity_dashboard.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/layout/activity_isi_article1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/layout/activity_login.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/layout/activity_profile.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/layout/activity_register.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/app/src/test/java/com/example/macro/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Macro5-master (1)/Macro5-master/settings.gradle.kts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2YKWyzo2dLyqmdOf2nBeKob28VE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Kotlin/Task-OOP-Kotlin-Morning-main/Task-OOP-Kotlin-Morning-main"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Task-OOP-Kotlin-Morning-main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Task-OOP-Kotlin-Morning-main" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="563a1639-7b7a-475f-820e-91c7bcfd92f2" name="Changes" comment="" />
+      <created>1700275011777</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1700275011777</updated>
+    </task>
+    <servers />
+  </component>
+</project>

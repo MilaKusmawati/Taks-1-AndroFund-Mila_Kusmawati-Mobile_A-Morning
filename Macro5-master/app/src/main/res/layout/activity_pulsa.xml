@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundmacro"
+    tools:context=".PulsaActivity">
+
+    <TextView
+        android:id="@+id/textPulsa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pulsa"
+        android:textColor="#568D25"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <ImageButton
+        android:id="@+id/ib_back_arrow_bankpulsa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/btn_bank"
+        android:src="@drawable/ic_back_arrow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textPulsa" />
+
+    <ImageButton
+        android:id="@+id/ib_home_pulsa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5.5dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/btn_bank"
+        android:src="@drawable/ic_bank_home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textPulsa" />
+
+    <RelativeLayout
+        android:id="@+id/rl_nmr_handphone"
+        android:layout_width="372dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/card_nrm_rekening"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ib_home_pulsa"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textPulsa"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/nmr_handphone"
+            android:layout_width="186dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:text="Nomor Handphone"
+            android:textColor="#568D25"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginRight="15dp"
+            android:backgroundTint="@color/ForestGreen"
+            android:gravity="center_vertical"
+            android:inputType="number"
+            android:textColor="@drawable/btn_bank" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_nominal"
+        android:layout_width="match_parent"
+        android:layout_height="207dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/card_nrm_rekening"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/ib_home_pulsa"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rl_nmr_handphone"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/tv_nominal"
+            android:layout_width="186dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:text="Nominal"
+            android:textColor="#568D25"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/rl_harga1"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/tv_nominal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/pilih_bank">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="-1dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="1dp"
+                android:gravity="center"
+                android:text="Rp. 5.000"
+                android:textColor="@color/White"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_harga2"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/tv_nominal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/rl_harga1"
+            android:background="@drawable/pilih_bank">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="-1dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="1dp"
+                android:gravity="center"
+                android:text="Rp. 10.000"
+                android:textColor="@color/White"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_harga3"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/tv_nominal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/rl_harga2"
+            android:background="@drawable/pilih_bank">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="-1dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="1dp"
+                android:gravity="center"
+                android:text="Rp. 15.000"
+                android:textColor="@color/White"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_harga4"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/tv_nominal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/pilih_bank">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="-1dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="1dp"
+                android:gravity="center"
+                android:text="Rp. 20.000"
+                android:textColor="@color/White"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_harga5"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/tv_nominal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_toRightOf="@+id/rl_harga4"
+            android:background="@drawable/pilih_bank">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="-1dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="1dp"
+                android:gravity="center"
+                android:text="Rp. 50.000"
+                android:textColor="@color/White"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_harga6"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/tv_nominal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_toRightOf="@+id/rl_harga5"
+            android:background="@drawable/pilih_bank">
+
+            <TextView
+                android:layout_width="84dp"
+                android:layout_height="30dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="-1dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="1dp"
+                android:gravity="center"
+                android:text="Nominal Lain"
+                android:textColor="@color/White"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="140dp"
+            android:layout_marginRight="15dp"
+            android:backgroundTint="@color/ForestGreen"
+            android:gravity="center_vertical"
+            android:inputType="number"
+            android:textColor="@drawable/btn_bank" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_bank_selanjutnya"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="85dp"
+        android:text="Selanjutnya"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@color/White"
+        android:backgroundTint="#57AE09"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/rl_nominal" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

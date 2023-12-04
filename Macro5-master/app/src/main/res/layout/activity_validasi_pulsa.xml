@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundmacro"
+    tools:context=".ValidasiPulsaActivity">
+
+    <TextView
+        android:id="@+id/tv_validasi_pulsa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pulsa"
+        android:textColor="#568D25"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <ImageButton
+        android:id="@+id/ib_back_arrow_validasi_pulsa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/btn_bank"
+        android:src="@drawable/ic_back_arrow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_validasi_pulsa" />
+
+    <ImageButton
+        android:id="@+id/ib_home_validasi_pulsa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5.5dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/btn_bank"
+        android:src="@drawable/ic_bank_home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_validasi_pulsa" />
+
+    <RelativeLayout
+        android:id="@+id/rl_validasi_pulsa"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/card_nrm_rekening"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_validasi_pulsa"
+        app:layout_constraintVertical_bias="0.0">
+
+    <RelativeLayout
+        android:id="@+id/rl_card_validasi_pulsa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="@drawable/validasi_bank">
+
+    <TextView
+        android:id="@+id/tv_jenis_operator"
+        android:layout_width="115dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:text="Jenis Operator"
+        android:textColor="@color/White"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_value_jenis_operator"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical"
+        android:text="XL"
+        android:layout_marginStart="210dp"
+        android:textColor="@color/White"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_nmr_rekening_hp"
+        android:layout_width="115dp"
+        android:layout_height="28dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:text="Nomor HP"
+        android:textColor="@color/White"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_value_nrm_hp"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="55dp"
+        android:gravity="center_vertical"
+        android:text="087879420355"
+        android:layout_marginStart="210dp"
+        android:textColor="@color/White"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_marginTop="160dp"
+            android:src="@drawable/bankline"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="175dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            android:text="Nominal "
+            android:textColor="#57AE09"
+            android:textSize="14sp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_value_nominal_pulsa"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="175dp"
+            android:gravity="center_vertical"
+            android:text="Rp.    5.000"
+            android:layout_marginStart="220dp"
+            android:textColor="#57AE09"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical"
+            android:text="Tukar Point "
+            android:textColor="#57AE09"
+            android:textSize="14sp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_value_tukar_point_pulsa"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="210dp"
+            android:gravity="center_vertical"
+            android:text="Gpts. 1.000"
+            android:layout_marginStart="220dp"
+            android:textColor="#57AE09"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn_tarik_pulsa"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="84dp"
+        android:backgroundTint="#57AE09"
+        android:text="Tarik"
+        android:textColor="@color/White"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/rl_validasi_pulsa" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

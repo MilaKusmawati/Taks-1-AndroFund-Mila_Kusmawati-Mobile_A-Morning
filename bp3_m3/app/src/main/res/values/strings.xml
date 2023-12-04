@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">bp3_m3</string>
+    <string name="perhitungan_volume">perhitungan volume</string>
+    <string name="panjang">panjang</string>
+    <string name="lebar">lebar</string>
+    <string name="tinggi">tinggi</string>
+</resources>
